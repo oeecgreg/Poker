@@ -6,4 +6,12 @@ public class Carte {
         this.couleur = couleur;
         this.valeur = valeur;
     }
+
+    public Valeur getValeur() {
+        return valeur;
+    }
+
+    public Couleur getCouleur() {
+        return couleur;
+    }
 }
